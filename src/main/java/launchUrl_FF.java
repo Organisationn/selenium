@@ -1,4 +1,6 @@
 import base.BasePage;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,6 +20,8 @@ public class launchUrl_FF {
     WebDriver driver;
     BasePage basePage;
     Properties prop;
+//    private static Logger logger = LogManager.getLogger(Log4jDemo.class);
+    private static Logger logger = LogManager.getRootLogger();
 
     By txtUserName=By.xpath("//input[@id='userInput']");
     By txtPwd=By.xpath("//input[@id='passwordInput']");
@@ -54,6 +58,7 @@ public class launchUrl_FF {
     By txtErrorHighlights=By.xpath("//label[@class='required error']");
     By ddCountry=By.xpath("//label[contains(text(),'Country')]//following-sibling::ng-select");
     By ddCountryOption=By.xpath("//span[contains(text(),'uganda - UG')]");
+    By txtDefaultCountryOption=By.xpath("//*[contains(text(),'united states - US')]");
 
     @BeforeTest
     public void initialSetUp() {
@@ -67,6 +72,7 @@ public class launchUrl_FF {
     public void login(){
         WebDriverWait wait=new WebDriverWait(driver,30);
         String strUn=System.getenv("EMAIL");
+        wait.until(ExpectedConditions.elementToBeClickable(txtUserName));
         driver.findElement(txtUserName).sendKeys(strUn);
         driver.findElement(btnLogin).click();
         wait.until(ExpectedConditions.elementToBeClickable(txtPwd));
@@ -76,6 +82,8 @@ public class launchUrl_FF {
         Assert.assertTrue(driver.findElement(btnRegisterCustomer).isEnabled());
         System.out.println("Home Page is Displayed");
         System.out.println("Execution completed TC01");
+        logger.info("Home Page is Displayed");
+
     }
     //    Validate the Cisco Logo and Customer Registry Page title is displayed properly
     @Test(priority = 2)
@@ -115,7 +123,7 @@ public class launchUrl_FF {
         System.out.println("Execution completed TC05");
     }
     //Verify the tooltip text is displayed when user hover over for Web Domain
-    @Test(priority = 6)
+    @Test(priority = 6,enabled = false)
     public void verifyWebDomainTooltipText() throws InterruptedException {
         Actions act = new Actions(driver);
         act.moveToElement(driver.findElement(imgTWebDomain)).build().perform();
@@ -127,7 +135,7 @@ public class launchUrl_FF {
         System.out.println("Execution completed TC06");
     }
     //    Verify the tooltip text is displayed when user hover over for Identification Type
-    @Test(priority = 7)
+    @Test(priority = 7,enabled = false)
     public void verifyIdentificationTypeTooltipText() throws InterruptedException {
         Actions act = new Actions(driver);
         act.moveToElement(driver.findElement(imgTIdentificationType)).build().perform();
@@ -139,7 +147,7 @@ public class launchUrl_FF {
         System.out.println("Execution completed TC07");
     }
     //    Verify the tooltip text is displayed when user hover over for Identification Type
-    @Test(priority = 8)
+    @Test(priority = 8,enabled = false)
     public void verifyIdentificationNumberTooltipText(){
         Actions act = new Actions(driver);
         act.moveToElement(driver.findElement(imgTIdentificationNumber)).build().perform();
@@ -151,7 +159,7 @@ public class launchUrl_FF {
         System.out.println("Execution completed TC08");
     }
     // Verify the tooltip text is displayed when user hover over for Primary Industry
-    @Test(priority = 9)
+    @Test(priority = 9,enabled = false)
     public void verifyPrimaryIndustryTooltipText() {
         Actions act = new Actions(driver);
         act.moveToElement(driver.findElement(imgTPrimaryIndustry)).build().perform();
@@ -163,7 +171,7 @@ public class launchUrl_FF {
         System.out.println("Execution completed TC09");
     }
     // Verify the tooltip text is displayed when user hover over for Reference URL
-    @Test(priority = 10)
+    @Test(priority = 10,enabled = false)
     public void verifyReferenceURLTooltipText(){
         Actions act = new Actions(driver);
         act.moveToElement(driver.findElement(imgTReferenceUrl)).build().perform();
@@ -176,7 +184,7 @@ public class launchUrl_FF {
     }
 
     // Verify the tooltip text is displayed when user hover over for Segmentation
-    @Test(priority = 11)
+    @Test(priority = 11,enabled = false)
     public void verifySegmentationTooltipText(){
         Actions act = new Actions(driver);
         act.moveToElement(driver.findElement(imgSegmentation)).build().perform();
@@ -188,7 +196,7 @@ public class launchUrl_FF {
         System.out.println("Execution completed TC11");
     }
     // Verify the tooltip text is displayed when user hover over for Reference GU ID
-    @Test(priority = 12)
+    @Test(priority = 12,enabled = false)
     public void verifyReferenceGIDTooltipText(){
         Actions act = new Actions(driver);
         act.moveToElement(driver.findElement(imgRefGUID)).build().perform();
@@ -227,7 +235,7 @@ public class launchUrl_FF {
 
     }
     // Validate that Country is a mandatory field and a drop down
-    @Test(priority = 14)
+    @Test(priority = 15)
     public void verifyCountryIsMandatoryAndElementType(){
         String strClassValue=driver.findElement(lblCountry).getAttribute("class");
         Assert.assertEquals(strClassValue,"required");
@@ -239,8 +247,15 @@ public class launchUrl_FF {
         Assert.assertEquals(strOptionCoutry,"Uganda - UG");
         System.out.println("Country is a dropdown type web element");
     }
-    @AfterTest
-    public void quitBrowser(){
-        driver.quit();
+    // Validate that Country united states - US is selected by default
+    @Test(priority = 14)
+    public void verifyUSAsDefaultCountry(){
+        String strCountryValue=driver.findElement(txtDefaultCountryOption).getText();
+        Assert.assertEquals(strCountryValue,"United States - US");
+        logger.info("united states - US is auto selected");
     }
+//    @AfterTest
+//    public void quitBrowser(){
+//        driver.quit();
+//    }
 }
