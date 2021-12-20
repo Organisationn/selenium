@@ -3,7 +3,7 @@
 <suite name="Suite1">
     <test thread-count="5" name="Test">
         <classes>
-            <class name="launchUrl_FF" />
+            <class name="page.launchUrl_FF" />
         </classes>
 
     </test>

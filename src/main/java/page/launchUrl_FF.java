@@ -1,3 +1,5 @@
+package page;
+
 import base.BasePage;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -15,6 +17,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 import java.util.Properties;
+import util.xpathUtil;
 
 public class launchUrl_FF {
     WebDriver driver;
@@ -23,42 +26,42 @@ public class launchUrl_FF {
 //    private static Logger logger = LogManager.getLogger(Log4jDemo.class);
     private static Logger logger = LogManager.getRootLogger();
 
-    By txtUserName=By.xpath("//input[@id='userInput']");
-    By txtPwd=By.xpath("//input[@id='passwordInput']");
-    By btnLogin=By.xpath("//input[@id='login-button']");
-    By btnRegisterCustomer=By.xpath("//button[contains(text(),'Register Customer')]");
-    By imgCisco=By.xpath("//img[contains(@src,'logo.svg')]");
-    By txtCustomerRegistry=By.xpath("//h1[contains(text(),'Customer Registry')]");
-    By btnNewCustomerRegistration=By.xpath("//a[contains(text(),'New Customer Registration')]");
-    By btnCustomerAddrValidation=By.xpath("//a[contains(text(),'Customer & Address Validation')]");
-    By lblCountry=By.xpath("//label[contains(text(),'Country')]");
-    By lblCustomerCompanyName=By.xpath("//label[contains(text(),'Customer Company Name')]");
-    By lblState=By.xpath("//label[contains(text(),'State/Province')]");
-    By lblAddress1=By.xpath("//label[contains(text(),'Address 1')]");
-    By lblAddress2=By.xpath("//label[contains(text(),'Address 2')]");
-    By lblAddress3=By.xpath("//label[contains(text(),'Address 3')]");
-    By lblAddress4=By.xpath("//label[contains(text(),'Address 4')]");
-    By lblCity=By.xpath("//label[contains(text(),'City')]");
-    By lblZipCode=By.xpath("//label[contains(text(),'Zip/Postal Code')]");
-    By lblWebDomain=By.xpath("//label[contains(text(),'Web Domain')]");
-    By lblIdentificationType=By.xpath("//label[contains(text(),'Identification Type')]");
-    By lblIdentificationNumber=By.xpath("//label[contains(text(),'Identification Number')]");
-    By lblPrimaryIndustry=By.xpath("//label[contains(text(),'Primary Industry')]");
-    By lblSegmentation=By.xpath("//label[contains(text(),'Segmentation')]");
-    By lblReferenceURL=By.xpath("//label[contains(text(),'Reference URL')]");
-    By lblReferenceGUID=By.xpath("//label[contains(text(),'Reference GU ID')]");
-    By btnReset=By.xpath("//button[contains(text(),'Reset')]");
-    By imgTWebDomain=By.xpath("//label[contains(text(),'Web Domain')]//child::i");
-    By imgTIdentificationType=By.xpath("//label[contains(text(),'Identification Type')]//child::i");
-    By imgTIdentificationNumber=By.xpath("//label[contains(text(),'Identification Number')]//child::i");
-    By imgTPrimaryIndustry=By.xpath("//label[contains(text(),'Primary Industry')]//child::i");
-    By imgTReferenceUrl=By.xpath("//label[contains(text(),'Reference URL')]//child::i");
-    By imgSegmentation=By.xpath("//label[contains(text(),'Segmentation')]//child::i");
-    By imgRefGUID=By.xpath("//label[contains(text(),'Reference GU ID')]//child::i");
-    By txtErrorHighlights=By.xpath("//label[@class='required error']");
-    By ddCountry=By.xpath("//label[contains(text(),'Country')]//following-sibling::ng-select");
-    By ddCountryOption=By.xpath("//span[contains(text(),'uganda - UG')]");
-    By txtDefaultCountryOption=By.xpath("//*[contains(text(),'united states - US')]");
+    By txtUserName=By.xpath(xpathUtil.TXT_USER_NAME);
+    By txtPwd=By.xpath(xpathUtil.TXT_PWD);
+    By btnLogin=By.xpath(xpathUtil.BTN_LOGIN);
+    By btnRegisterCustomer=By.xpath(xpathUtil.BTN_REGISTER_CUSTOMER);
+    By imgCisco=By.xpath(xpathUtil.TXT_IMG_CISCO);
+    By txtCustomerRegistry=By.xpath(xpathUtil.TXT_CUSTOMER_REGISTRY);
+    By btnNewCustomerRegistration=By.xpath(xpathUtil.BTN_NEW_CUSTOMER_REGISTRATION);
+    By btnCustomerAddrValidation=By.xpath(xpathUtil.BTN_CUSTOMER_ADDR_VALIDATION);
+    By lblCountry=By.xpath(xpathUtil.LBL_COUNTRY);
+    By lblCustomerCompanyName=By.xpath(xpathUtil.LBL_CUSTOMER_COMPANY_NAME);
+    By lblState=By.xpath(xpathUtil.LBL_STATE);
+    By lblAddress1=By.xpath(xpathUtil.LBL_ADDRESS1);
+    By lblAddress2=By.xpath(xpathUtil.LBL_ADDRESS2);
+    By lblAddress3=By.xpath(xpathUtil.LBL_ADDRESS3);
+    By lblAddress4=By.xpath(xpathUtil.LBL_ADDRESS4);
+    By lblCity=By.xpath(xpathUtil.LBL_CITY);
+    By lblZipCode=By.xpath(xpathUtil.LBL_ZIP_CODE);
+    By lblWebDomain=By.xpath(xpathUtil.LBL_WEB_DOMAIN);
+    By lblIdentificationType=By.xpath(xpathUtil.LBL_IDENTIFICATION_TYPE);
+    By lblIdentificationNumber=By.xpath(xpathUtil.LBL_IDENTIFICATION_NUMBER);
+    By lblPrimaryIndustry=By.xpath(xpathUtil.LBL_PRIMARY_INDUSTRY);
+    By lblSegmentation=By.xpath(xpathUtil.LBL_SEGMENTATION);
+    By lblReferenceURL=By.xpath(xpathUtil.LBL_REFERENCE_URL);
+    By lblReferenceGUID=By.xpath(xpathUtil.LBL_IREFERENCE_GUID);
+    By btnReset=By.xpath(xpathUtil.BTN_RESET);
+    By imgTWebDomain=By.xpath(xpathUtil.IMG_WEB_DOMAIN);
+    By imgTIdentificationType=By.xpath(xpathUtil.LBL_IDENTIFICATION_TYPE);
+    By imgTIdentificationNumber=By.xpath(xpathUtil.LBL_IDENTIFICATION_NUMBER);
+    By imgTPrimaryIndustry=By.xpath(xpathUtil.IMG_PRIMARY_INDUSTRY);
+    By imgTReferenceUrl=By.xpath(xpathUtil.IMG_REFERENCE_URL);
+    By imgSegmentation=By.xpath(xpathUtil.IMG_SEGMENTATION);
+    By imgRefGUID=By.xpath(xpathUtil.IMG_REF_GUID);
+    By txtErrorHighlights=By.xpath(xpathUtil.TXT_ERROR_HIGHLIGHTS);
+    By ddCountry=By.xpath(xpathUtil.DD_COUNTRY);
+    By ddCountryOption=By.xpath(xpathUtil.DD_COUNTRY_OPTION);
+    By txtDefaultCountryOption=By.xpath(xpathUtil.TXT_DEFAULT_COUNTRY_OPTION);
 
     @BeforeTest
     public void initialSetUp() {
