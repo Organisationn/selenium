@@ -1,20 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="NewCustomerRegistration(failed)">
     <classes>
-      <class name="page.launchUrl_FF">
+      <class name="test.NewCustomerRegistrationTest">
         <methods>
-          <include name="verifyIdentificationTypeTooltipText"/>
-          <include name="verifyReferenceURLTooltipText"/>
-          <include name="verifyIdentificationNumberTooltipText"/>
-          <include name="verifyPrimaryIndustryTooltipText"/>
-          <include name="verifySegmentationTooltipText"/>
-          <include name="verifyReferenceGIDTooltipText"/>
-          <include name="verifyWebDomainTooltipText"/>
-          <include name="initialSetUp"/>
+          <include name="VerifyLoginAndsetUp"/>
+          <include name="quitBrowser"/>
+          <include name="TC06_CustomerRegistrationForUS"/>
+          <include name="TC09_verifyResetFunctionality"/>
+          <include name="TC33_verifyErrorForInvalidCustomerCompanyName"/>
         </methods>
-      </class> <!-- launchUrl_FF -->
+      </class> <!-- test.NewCustomerRegistrationTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- NewCustomerRegistration(failed) -->
+  <test thread-count="5" name="CustomerAndAddressValidation(failed)">
+    <classes>
+      <class name="test.CustomerAndAddressValidationTest">
+        <methods>
+          <include name="TC03_verifyErrorCustomerName_State_City_Postal_Code_Mandatory"/>
+          <include name="TC12_ValidateResetFunctionality"/>
+          <include name="TC06_ValidateCustomerSearchUsingState"/>
+          <include name="TC11_ValidateCustomerSearchWithAllInput"/>
+          <include name="TC02_verifyUSAsDefaultCountry"/>
+          <include name="TC09_SuggestionsListsForCity"/>
+          <include name="VerifyLoginAndsetUp"/>
+          <include name="TC04_ValidateCustomerSearchUsingCustomerCompanyName"/>
+          <include name="TC13_VerifyHelpfulTips"/>
+          <include name="TC15_RefreshResultTable"/>
+          <include name="TC20_BulkValidationMessageToDownloadTemplate"/>
+          <include name="TC05_SuggestionsListsForCustomerCompanyName"/>
+          <include name="TC08_ValidateCustomerSearchUsingCity"/>
+          <include name="TC19_VerifyDemoFunctionality"/>
+          <include name="TC07_SuggestionsListsForState"/>
+          <include name="TC01_login"/>
+          <include name="TC24_VerifySupportFunctionality"/>
+          <include name="TC17_VerfiyUploadErrorMessage"/>
+          <include name="TC21_VerifyToolTipTextCustomerCompanyName"/>
+          <include name="TC10_ValidateCustomerSearchUsingZipCode"/>
+          <include name="TC18_VerfiyBulkUploadData"/>
+        </methods>
+      </class> <!-- test.CustomerAndAddressValidationTest -->
+    </classes>
+  </test> <!-- CustomerAndAddressValidation(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,465 @@
+<html>
+<head>
+<title>TestNG:  NewCustomerRegistration</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>NewCustomerRegistration</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 16 12:32:42 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>380 seconds (380643 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC06_CustomerRegistrationForUS()'><b>TC06_CustomerRegistrationForUS</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(),&apos;Party created successfully&apos;)]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 20752, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 80605ec0-2572-40d6-ae89-fa3457fa65a3
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Party created successfully&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.NewCustomerRegistration.customerRegistrationForUS(NewCustomerRegistration.java:170)
+	at test.NewCustomerRegistrationTest.TC06_CustomerRegistrationForUS(NewCustomerRegistrationTest.java:67)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace855700733", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace855700733'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(),&apos;Party created successfully&apos;)]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 20752, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 80605ec0-2572-40d6-ae89-fa3457fa65a3
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Party created successfully&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.NewCustomerRegistration.customerRegistrationForUS(NewCustomerRegistration.java:170)
+	at test.NewCustomerRegistrationTest.TC06_CustomerRegistrationForUS(NewCustomerRegistrationTest.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>5</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC09_verifyResetFunctionality()'><b>TC09_verifyResetFunctionality</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(),&apos;Party created successfully&apos;)]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 20752, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 80605ec0-2572-40d6-ae89-fa3457fa65a3
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Party created successfully&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.NewCustomerRegistration.verifyResetFunctionality(NewCustomerRegistration.java:649)
+	at test.NewCustomerRegistrationTest.TC09_verifyResetFunctionality(NewCustomerRegistrationTest.java:207)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace795156371", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace795156371'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(),&apos;Party created successfully&apos;)]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 20752, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 80605ec0-2572-40d6-ae89-fa3457fa65a3
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Party created successfully&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.NewCustomerRegistration.verifyResetFunctionality(NewCustomerRegistration.java:649)
+	at test.NewCustomerRegistrationTest.TC09_verifyResetFunctionality(NewCustomerRegistrationTest.java:207)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>13</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC33_verifyErrorForInvalidCustomerCompanyName()'><b>TC33_verifyErrorForInvalidCustomerCompanyName</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(),&apos;party name should be provided and not be null in locale: en-US&apos;)]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 20752, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 80605ec0-2572-40d6-ae89-fa3457fa65a3
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;party name should be provided and not be null in locale: en-US&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.NewCustomerRegistration.verifyErrorForInvalidCustomerCompanyName(NewCustomerRegistration.java:636)
+	at test.NewCustomerRegistrationTest.TC33_verifyErrorForInvalidCustomerCompanyName(NewCustomerRegistrationTest.java:200)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace34032089", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace34032089'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(),&apos;party name should be provided and not be null in locale: en-US&apos;)]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 20752, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 80605ec0-2572-40d6-ae89-fa3457fa65a3
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;party name should be provided and not be null in locale: en-US&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.NewCustomerRegistration.verifyErrorForInvalidCustomerCompanyName(NewCustomerRegistration.java:636)
+	at test.NewCustomerRegistrationTest.TC33_verifyErrorForInvalidCustomerCompanyName(NewCustomerRegistrationTest.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>13</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC01_login()'><b>TC01_login</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>269</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC02_verifyLogoAndPageTitle()'><b>TC02_verifyLogoAndPageTitle</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC03_verifyCRAndCustomerValidationTabs()'><b>TC03_verifyCRAndCustomerValidationTabs</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC04_verifyCRTabIsSelected()'><b>TC04_verifyCRTabIsSelected</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC05_verifyPresenceOfAllFields()'><b>TC05_verifyPresenceOfAllFields</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>1</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC07_CustomerRegistrationForAF()'><b>TC07_CustomerRegistrationForAF</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>7</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC08_CustomerRegistrationForRU()'><b>TC08_CustomerRegistrationForRU</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>10</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC10_verifyWebDomainTooltipText()'><b>TC10_verifyWebDomainTooltipText</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>1</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC11_verifyIdentificationTypeTooltipText()'><b>TC11_verifyIdentificationTypeTooltipText</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>1</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC12_verifyIdentificationNumberTooltipText()'><b>TC12_verifyIdentificationNumberTooltipText</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>1</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC13_verifyPrimaryIndustryTooltipText()'><b>TC13_verifyPrimaryIndustryTooltipText</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>1</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC14_verifyReferenceURLTooltipText()'><b>TC14_verifyReferenceURLTooltipText</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>1</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC15_verifySegmentationTooltipText()'><b>TC15_verifySegmentationTooltipText</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>1</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC16_verifyReferenceGIDTooltipText()'><b>TC16_verifyReferenceGIDTooltipText</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>1</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC17_verifyFieldsMandatoryToFillForRegistration()'><b>TC17_verifyFieldsMandatoryToFillForRegistration</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC18_verifyCountryIsMandatoryAndElementType()'><b>TC18_verifyCountryIsMandatoryAndElementType</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC19_verifyUSAsDefaultCountry()'><b>TC19_verifyUSAsDefaultCountry</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC20_verifyStateIsMandatoryAndElementType()'><b>TC20_verifyStateIsMandatoryAndElementType</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC21_verifyCityIsMandatoryAndElementType()'><b>TC21_verifyCityIsMandatoryAndElementType</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC22_verifyZipCodeIsMandatoryAndElementType()'><b>TC22_verifyZipCodeIsMandatoryAndElementType</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC23_verifyWebDomainIsMandatoryAndElementType()'><b>TC23_verifyWebDomainIsMandatoryAndElementType</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC24_verifyPrimaryIndustryIsMandatoryAndElementType()'><b>TC24_verifyPrimaryIndustryIsMandatoryAndElementType</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC25_verifyCustomerCompanyNameIsMandatoryAndElementType()'><b>TC25_verifyCustomerCompanyNameIsMandatoryAndElementType</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC26_verifyAddress1IsMandatoryAndElementType()'><b>TC26_verifyAddress1IsMandatoryAndElementType</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC27_verifySegmentationIsMandatoryAndElementType()'><b>TC27_verifySegmentationIsMandatoryAndElementType</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC28_verifyIdentificationTypeIsMandatoryAndElementType()'><b>TC28_verifyIdentificationTypeIsMandatoryAndElementType</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>2</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC29_verifyIdentificationNumberIsMandatoryAndElementType()'><b>TC29_verifyIdentificationNumberIsMandatoryAndElementType</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC30_verifyErrorForInvalidCity()'><b>TC30_verifyErrorForInvalidCity</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>10</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC31_verifyErrorForInvalidPostalCode()'><b>TC31_verifyErrorForInvalidPostalCode</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>3</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+<tr>
+<td title='test.NewCustomerRegistrationTest.TC32_verifyErrorForIncorrectPostalCode()'><b>TC32_verifyErrorForIncorrectPostalCode</b><br>Test class: test.NewCustomerRegistrationTest</td>
+<td></td>
+<td>3</td>
+<td>test.NewCustomerRegistrationTest@17c68925</td></tr>
+</table><p>
+</body>
+</html>

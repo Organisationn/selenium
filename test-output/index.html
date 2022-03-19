@@ -24,21 +24,21 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 23 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Suite1" class="navigator-link">
-              <span class="suite-name border-passed">Suite1</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite1">
+              <span class="suite-name border-failed">Suite1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Suite1" class="navigator-link ">
-                    <span>C:\Users\manorsah\Documents\CRT_UI_AUTOMATION\testng.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
+                    <span>C:\Users\manorsah\IdeaProjects\selenium\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Suite1" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite1">
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Suite1" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-Suite1">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Suite1" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-Suite1">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Suite1" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite1">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Suite1" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Suite1" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite1">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,7 +91,131 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">53 methods, 23 failed,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods failed suite-Suite1"> (hide)</a> <!-- hide-methods failed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods failed suite-Suite1"> (show)</a> <!-- show-methods failed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC01_login">TC01_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC02_verifyUSAsDefaultCountry">TC02_verifyUSAsDefaultCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC03_verifyErrorCustomerName_State_City_Postal_Code_Mandatory">TC03_verifyErrorCustomerName_State_City_Postal_Code_Mandatory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC04_ValidateCustomerSearchUsingCustomerCompanyName">TC04_ValidateCustomerSearchUsingCustomerCompanyName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC05_SuggestionsListsForCustomerCompanyName">TC05_SuggestionsListsForCustomerCompanyName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC06_CustomerRegistrationForUS">TC06_CustomerRegistrationForUS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC06_ValidateCustomerSearchUsingState">TC06_ValidateCustomerSearchUsingState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC07_SuggestionsListsForState">TC07_SuggestionsListsForState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC08_ValidateCustomerSearchUsingCity">TC08_ValidateCustomerSearchUsingCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC09_SuggestionsListsForCity">TC09_SuggestionsListsForCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC09_verifyResetFunctionality">TC09_verifyResetFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC10_ValidateCustomerSearchUsingZipCode">TC10_ValidateCustomerSearchUsingZipCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC11_ValidateCustomerSearchWithAllInput">TC11_ValidateCustomerSearchWithAllInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC12_ValidateResetFunctionality">TC12_ValidateResetFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC13_VerifyHelpfulTips">TC13_VerifyHelpfulTips</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC15_RefreshResultTable">TC15_RefreshResultTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC17_VerfiyUploadErrorMessage">TC17_VerfiyUploadErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC18_VerfiyBulkUploadData">TC18_VerfiyBulkUploadData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC19_VerifyDemoFunctionality">TC19_VerifyDemoFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC20_BulkValidationMessageToDownloadTemplate">TC20_BulkValidationMessageToDownloadTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC21_VerifyToolTipTextCustomerCompanyName">TC21_VerifyToolTipTextCustomerCompanyName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.CustomerAndAddressValidationTest" hash-for-method="TC24_VerifySupportFunctionality">TC24_VerifySupportFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC33_verifyErrorForInvalidCustomerCompanyName">TC33_verifyErrorForInvalidCustomerCompanyName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite1 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,43 +225,153 @@
                     </span>
                     <div class="method-list-content passed suite-Suite1">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="launchUrl_FF" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC01_login">TC01_login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="launchUrl_FF" class="method navigator-link" hash-for-method="verifyCRAndCustomerValidationTabs">verifyCRAndCustomerValidationTabs</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC02_verifyLogoAndPageTitle">TC02_verifyLogoAndPageTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="launchUrl_FF" class="method navigator-link" hash-for-method="verifyCRTabIsSelected">verifyCRTabIsSelected</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC03_verifyCRAndCustomerValidationTabs">TC03_verifyCRAndCustomerValidationTabs</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="launchUrl_FF" class="method navigator-link" hash-for-method="verifyCountryIsMandatoryAndElementType">verifyCountryIsMandatoryAndElementType</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC04_verifyCRTabIsSelected">TC04_verifyCRTabIsSelected</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="launchUrl_FF" class="method navigator-link" hash-for-method="verifyFieldsMandatoryToFillForRegistration">verifyFieldsMandatoryToFillForRegistration</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC05_verifyPresenceOfAllFields">TC05_verifyPresenceOfAllFields</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="launchUrl_FF" class="method navigator-link" hash-for-method="verifyLogoAndPageTitle">verifyLogoAndPageTitle</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC07_CustomerRegistrationForAF">TC07_CustomerRegistrationForAF</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="launchUrl_FF" class="method navigator-link" hash-for-method="verifyPresenceOfAllFields">verifyPresenceOfAllFields</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC08_CustomerRegistrationForRU">TC08_CustomerRegistrationForRU</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="launchUrl_FF" class="method navigator-link" hash-for-method="verifyUSAsDefaultCountry">verifyUSAsDefaultCountry</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC10_verifyWebDomainTooltipText">TC10_verifyWebDomainTooltipText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC11_verifyIdentificationTypeTooltipText">TC11_verifyIdentificationTypeTooltipText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC12_verifyIdentificationNumberTooltipText">TC12_verifyIdentificationNumberTooltipText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC13_verifyPrimaryIndustryTooltipText">TC13_verifyPrimaryIndustryTooltipText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC14_verifyReferenceURLTooltipText">TC14_verifyReferenceURLTooltipText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC15_verifySegmentationTooltipText">TC15_verifySegmentationTooltipText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC16_verifyReferenceGIDTooltipText">TC16_verifyReferenceGIDTooltipText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC17_verifyFieldsMandatoryToFillForRegistration">TC17_verifyFieldsMandatoryToFillForRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC18_verifyCountryIsMandatoryAndElementType">TC18_verifyCountryIsMandatoryAndElementType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC19_verifyUSAsDefaultCountry">TC19_verifyUSAsDefaultCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC20_verifyStateIsMandatoryAndElementType">TC20_verifyStateIsMandatoryAndElementType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC21_verifyCityIsMandatoryAndElementType">TC21_verifyCityIsMandatoryAndElementType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC22_verifyZipCodeIsMandatoryAndElementType">TC22_verifyZipCodeIsMandatoryAndElementType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC23_verifyWebDomainIsMandatoryAndElementType">TC23_verifyWebDomainIsMandatoryAndElementType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC24_verifyPrimaryIndustryIsMandatoryAndElementType">TC24_verifyPrimaryIndustryIsMandatoryAndElementType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC25_verifyCustomerCompanyNameIsMandatoryAndElementType">TC25_verifyCustomerCompanyNameIsMandatoryAndElementType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC26_verifyAddress1IsMandatoryAndElementType">TC26_verifyAddress1IsMandatoryAndElementType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC27_verifySegmentationIsMandatoryAndElementType">TC27_verifySegmentationIsMandatoryAndElementType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC28_verifyIdentificationTypeIsMandatoryAndElementType">TC28_verifyIdentificationTypeIsMandatoryAndElementType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC29_verifyIdentificationNumberIsMandatoryAndElementType">TC29_verifyIdentificationNumberIsMandatoryAndElementType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC30_verifyErrorForInvalidCity">TC30_verifyErrorForInvalidCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC31_verifyErrorForInvalidPostalCode">TC31_verifyErrorForInvalidPostalCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="test.NewCustomerRegistrationTest" hash-for-method="TC32_verifyErrorForIncorrectPostalCode">TC32_verifyErrorForIncorrectPostalCode</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite1 -->
@@ -152,66 +386,971 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite1" class="panel Suite1">
-          <div class="suite-Suite1-class-passed">
+          <div class="suite-Suite1-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">launchUrl_FF</span>
+              <img src="failed.png"/>
+              <span class="class-name">test.NewCustomerRegistrationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
+                  <a name="TC06_CustomerRegistrationForUS">
+                  </a> <!-- TC06_CustomerRegistrationForUS -->
+                  <span class="method-name">TC06_CustomerRegistrationForUS</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(),&apos;Party created successfully&apos;)]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 20752, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 80605ec0-2572-40d6-ae89-fa3457fa65a3
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Party created successfully&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.NewCustomerRegistration.customerRegistrationForUS(NewCustomerRegistration.java:170)
+	at test.NewCustomerRegistrationTest.TC06_CustomerRegistrationForUS(NewCustomerRegistrationTest.java:67)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyCRAndCustomerValidationTabs">
-                  </a> <!-- verifyCRAndCustomerValidationTabs -->
-                  <span class="method-name">verifyCRAndCustomerValidationTabs</span>
+                  <a name="TC09_verifyResetFunctionality">
+                  </a> <!-- TC09_verifyResetFunctionality -->
+                  <span class="method-name">TC09_verifyResetFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(),&apos;Party created successfully&apos;)]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 20752, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 80605ec0-2572-40d6-ae89-fa3457fa65a3
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Party created successfully&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.NewCustomerRegistration.verifyResetFunctionality(NewCustomerRegistration.java:649)
+	at test.NewCustomerRegistrationTest.TC09_verifyResetFunctionality(NewCustomerRegistrationTest.java:207)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyCRTabIsSelected">
-                  </a> <!-- verifyCRTabIsSelected -->
-                  <span class="method-name">verifyCRTabIsSelected</span>
+                  <a name="TC33_verifyErrorForInvalidCustomerCompanyName">
+                  </a> <!-- TC33_verifyErrorForInvalidCustomerCompanyName -->
+                  <span class="method-name">TC33_verifyErrorForInvalidCustomerCompanyName</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(),&apos;party name should be provided and not be null in locale: en-US&apos;)]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 20752, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 80605ec0-2572-40d6-ae89-fa3457fa65a3
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;party name should be provided and not be null in locale: en-US&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.NewCustomerRegistration.verifyErrorForInvalidCustomerCompanyName(NewCustomerRegistration.java:636)
+	at test.NewCustomerRegistrationTest.TC33_verifyErrorForInvalidCustomerCompanyName(NewCustomerRegistrationTest.java:200)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-failed -->
+          <div class="suite-Suite1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.CustomerAndAddressValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01_login">
+                  </a> <!-- TC01_login -->
+                  <span class="method-name">TC01_login</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//input[@id=&apos;userInput&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at page.CustomerAndAddressValidation.login(CustomerAndAddressValidation.java:75)
+	at test.CustomerAndAddressValidationTest.TC01_login(CustomerAndAddressValidationTest.java:32)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyCountryIsMandatoryAndElementType">
-                  </a> <!-- verifyCountryIsMandatoryAndElementType -->
-                  <span class="method-name">verifyCountryIsMandatoryAndElementType</span>
+                  <a name="TC02_verifyUSAsDefaultCountry">
+                  </a> <!-- TC02_verifyUSAsDefaultCountry -->
+                  <span class="method-name">TC02_verifyUSAsDefaultCountry</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//*[contains(text(),&apos;united states - US&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.CustomerAndAddressValidation.verifyUSAsDefaultCountry(CustomerAndAddressValidation.java:89)
+	at test.CustomerAndAddressValidationTest.TC02_verifyUSAsDefaultCountry(CustomerAndAddressValidationTest.java:39)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFieldsMandatoryToFillForRegistration">
-                  </a> <!-- verifyFieldsMandatoryToFillForRegistration -->
-                  <span class="method-name">verifyFieldsMandatoryToFillForRegistration</span>
+                  <a name="TC03_verifyErrorCustomerName_State_City_Postal_Code_Mandatory">
+                  </a> <!-- TC03_verifyErrorCustomerName_State_City_Postal_Code_Mandatory -->
+                  <span class="method-name">TC03_verifyErrorCustomerName_State_City_Postal_Code_Mandatory</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Customer &amp; Address Validation&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at page.CustomerAndAddressValidation.verifyErrorCustomerName_State_City_Postal_Code_Mandatory(CustomerAndAddressValidation.java:97)
+	at test.CustomerAndAddressValidationTest.TC03_verifyErrorCustomerName_State_City_Postal_Code_Mandatory(CustomerAndAddressValidationTest.java:46)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLogoAndPageTitle">
-                  </a> <!-- verifyLogoAndPageTitle -->
-                  <span class="method-name">verifyLogoAndPageTitle</span>
+                  <a name="TC04_ValidateCustomerSearchUsingCustomerCompanyName">
+                  </a> <!-- TC04_ValidateCustomerSearchUsingCustomerCompanyName -->
+                  <span class="method-name">TC04_ValidateCustomerSearchUsingCustomerCompanyName</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//*[@placeholder=&apos;Customer Company Name&apos; and @type=&apos;text&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at page.CustomerAndAddressValidation.validateCustomerSearchUsingCustomerCompanyName(CustomerAndAddressValidation.java:238)
+	at test.CustomerAndAddressValidationTest.TC04_ValidateCustomerSearchUsingCustomerCompanyName(CustomerAndAddressValidationTest.java:120)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyPresenceOfAllFields">
-                  </a> <!-- verifyPresenceOfAllFields -->
-                  <span class="method-name">verifyPresenceOfAllFields</span>
+                  <a name="TC05_SuggestionsListsForCustomerCompanyName">
+                  </a> <!-- TC05_SuggestionsListsForCustomerCompanyName -->
+                  <span class="method-name">TC05_SuggestionsListsForCustomerCompanyName</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//a[@class=&apos;alert__close icon-exit-outline&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at page.CustomerAndAddressValidation.SuggestionsListsForCustomerCompanyName(CustomerAndAddressValidation.java:110)
+	at test.CustomerAndAddressValidationTest.TC05_SuggestionsListsForCustomerCompanyName(CustomerAndAddressValidationTest.java:53)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyUSAsDefaultCountry">
-                  </a> <!-- verifyUSAsDefaultCountry -->
-                  <span class="method-name">verifyUSAsDefaultCountry</span>
+                  <a name="TC06_ValidateCustomerSearchUsingState">
+                  </a> <!-- TC06_ValidateCustomerSearchUsingState -->
+                  <span class="method-name">TC06_ValidateCustomerSearchUsingState</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//*[@placeholder=&apos;State/Province&apos; and @type=&apos;text&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at page.CustomerAndAddressValidation.validateCustomerSearchUsingState(CustomerAndAddressValidation.java:249)
+	at test.CustomerAndAddressValidationTest.TC06_ValidateCustomerSearchUsingState(CustomerAndAddressValidationTest.java:127)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07_SuggestionsListsForState">
+                  </a> <!-- TC07_SuggestionsListsForState -->
+                  <span class="method-name">TC07_SuggestionsListsForState</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//*[@placeholder=&apos;Customer Company Name&apos; and @type=&apos;text&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.CustomerAndAddressValidation.suggestionsListsForState(CustomerAndAddressValidation.java:125)
+	at test.CustomerAndAddressValidationTest.TC07_SuggestionsListsForState(CustomerAndAddressValidationTest.java:60)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08_ValidateCustomerSearchUsingCity">
+                  </a> <!-- TC08_ValidateCustomerSearchUsingCity -->
+                  <span class="method-name">TC08_ValidateCustomerSearchUsingCity</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//*[@placeholder=&apos;State/Province&apos; and @type=&apos;text&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.CustomerAndAddressValidation.validateCustomerSearchUsingCity(CustomerAndAddressValidation.java:267)
+	at test.CustomerAndAddressValidationTest.TC08_ValidateCustomerSearchUsingCity(CustomerAndAddressValidationTest.java:134)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC09_SuggestionsListsForCity">
+                  </a> <!-- TC09_SuggestionsListsForCity -->
+                  <span class="method-name">TC09_SuggestionsListsForCity</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:865)
+	at page.CustomerAndAddressValidation.suggestionsListsForCity(CustomerAndAddressValidation.java:141)
+	at test.CustomerAndAddressValidationTest.TC09_SuggestionsListsForCity(CustomerAndAddressValidationTest.java:67)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10_ValidateCustomerSearchUsingZipCode">
+                  </a> <!-- TC10_ValidateCustomerSearchUsingZipCode -->
+                  <span class="method-name">TC10_ValidateCustomerSearchUsingZipCode</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//*[@placeholder=&apos;City&apos; and @type=&apos;text&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.CustomerAndAddressValidation.validateCustomerSearchUsingZipCode(CustomerAndAddressValidation.java:280)
+	at test.CustomerAndAddressValidationTest.TC10_ValidateCustomerSearchUsingZipCode(CustomerAndAddressValidationTest.java:141)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC11_ValidateCustomerSearchWithAllInput">
+                  </a> <!-- TC11_ValidateCustomerSearchWithAllInput -->
+                  <span class="method-name">TC11_ValidateCustomerSearchWithAllInput</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//*[@placeholder=&apos;City&apos; and @type=&apos;text&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at page.CustomerAndAddressValidation.validateCustomerSearchWithAllInput(CustomerAndAddressValidation.java:291)
+	at test.CustomerAndAddressValidationTest.TC11_ValidateCustomerSearchWithAllInput(CustomerAndAddressValidationTest.java:148)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12_ValidateResetFunctionality">
+                  </a> <!-- TC12_ValidateResetFunctionality -->
+                  <span class="method-name">TC12_ValidateResetFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//*[@placeholder=&apos;Customer Company Name&apos; and @type=&apos;text&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.CustomerAndAddressValidation.validateResetFunctionality(CustomerAndAddressValidation.java:156)
+	at test.CustomerAndAddressValidationTest.TC12_ValidateResetFunctionality(CustomerAndAddressValidationTest.java:74)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC13_VerifyHelpfulTips">
+                  </a> <!-- TC13_VerifyHelpfulTips -->
+                  <span class="method-name">TC13_VerifyHelpfulTips</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//input[@name=&apos;postalCode&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.CustomerAndAddressValidation.verifyHelpfulTips(CustomerAndAddressValidation.java:172)
+	at test.CustomerAndAddressValidationTest.TC13_VerifyHelpfulTips(CustomerAndAddressValidationTest.java:81)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC15_RefreshResultTable">
+                  </a> <!-- TC15_RefreshResultTable -->
+                  <span class="method-name">TC15_RefreshResultTable</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//*[@title=&apos;Refresh Table&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at page.CustomerAndAddressValidation.refreshResultTable(CustomerAndAddressValidation.java:303)
+	at test.CustomerAndAddressValidationTest.TC15_RefreshResultTable(CustomerAndAddressValidationTest.java:155)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC17_VerfiyUploadErrorMessage">
+                  </a> <!-- TC17_VerfiyUploadErrorMessage -->
+                  <span class="method-name">TC17_VerfiyUploadErrorMessage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//button[@title=&apos;Upload Bulk File&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at page.CustomerAndAddressValidation.verfiyUploadErrorMessage(CustomerAndAddressValidation.java:311)
+	at test.CustomerAndAddressValidationTest.TC17_VerfiyUploadErrorMessage(CustomerAndAddressValidationTest.java:162)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC18_VerfiyBulkUploadData">
+                  </a> <!-- TC18_VerfiyBulkUploadData -->
+                  <span class="method-name">TC18_VerfiyBulkUploadData</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//button[@title=&apos;Upload Bulk File&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at page.CustomerAndAddressValidation.verfiyBulkUploadData(CustomerAndAddressValidation.java:326)
+	at test.CustomerAndAddressValidationTest.TC18_VerfiyBulkUploadData(CustomerAndAddressValidationTest.java:169)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC19_VerifyDemoFunctionality">
+                  </a> <!-- TC19_VerifyDemoFunctionality -->
+                  <span class="method-name">TC19_VerifyDemoFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Need a demo?&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.CustomerAndAddressValidation.verifyDemoFunctionality(CustomerAndAddressValidation.java:181)
+	at test.CustomerAndAddressValidationTest.TC19_VerifyDemoFunctionality(CustomerAndAddressValidationTest.java:88)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC20_BulkValidationMessageToDownloadTemplate">
+                  </a> <!-- TC20_BulkValidationMessageToDownloadTemplate -->
+                  <span class="method-name">TC20_BulkValidationMessageToDownloadTemplate</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Bulk Validation?&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.CustomerAndAddressValidation.bulkValidationMessageToDownloadTemplate(CustomerAndAddressValidation.java:210)
+	at test.CustomerAndAddressValidationTest.TC20_BulkValidationMessageToDownloadTemplate(CustomerAndAddressValidationTest.java:93)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC21_VerifyToolTipTextCustomerCompanyName">
+                  </a> <!-- TC21_VerifyToolTipTextCustomerCompanyName -->
+                  <span class="method-name">TC21_VerifyToolTipTextCustomerCompanyName</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=(//div[@class=&apos;walkme-icon-image-div&apos;])[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.CustomerAndAddressValidation.verifyToolTipTextCustomerCompanyName(CustomerAndAddressValidation.java:224)
+	at test.CustomerAndAddressValidationTest.TC21_VerifyToolTipTextCustomerCompanyName(CustomerAndAddressValidationTest.java:107)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC24_VerifySupportFunctionality">
+                  </a> <!-- TC24_VerifySupportFunctionality -->
+                  <span class="method-name">TC24_VerifySupportFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OATGVE3&apos;, ip: &apos;10.65.50.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15608, moz:profile: C:\Users\manorsah\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d96ab2b-9147-43de-9823-5b91589d91f1
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;×&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page.CustomerAndAddressValidation.verifySupportFunctionality(CustomerAndAddressValidation.java:218)
+	at test.CustomerAndAddressValidationTest.TC24_VerifySupportFunctionality(CustomerAndAddressValidationTest.java:100)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-failed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.NewCustomerRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01_login">
+                  </a> <!-- TC01_login -->
+                  <span class="method-name">TC01_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_verifyLogoAndPageTitle">
+                  </a> <!-- TC02_verifyLogoAndPageTitle -->
+                  <span class="method-name">TC02_verifyLogoAndPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03_verifyCRAndCustomerValidationTabs">
+                  </a> <!-- TC03_verifyCRAndCustomerValidationTabs -->
+                  <span class="method-name">TC03_verifyCRAndCustomerValidationTabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04_verifyCRTabIsSelected">
+                  </a> <!-- TC04_verifyCRTabIsSelected -->
+                  <span class="method-name">TC04_verifyCRTabIsSelected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC05_verifyPresenceOfAllFields">
+                  </a> <!-- TC05_verifyPresenceOfAllFields -->
+                  <span class="method-name">TC05_verifyPresenceOfAllFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07_CustomerRegistrationForAF">
+                  </a> <!-- TC07_CustomerRegistrationForAF -->
+                  <span class="method-name">TC07_CustomerRegistrationForAF</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08_CustomerRegistrationForRU">
+                  </a> <!-- TC08_CustomerRegistrationForRU -->
+                  <span class="method-name">TC08_CustomerRegistrationForRU</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10_verifyWebDomainTooltipText">
+                  </a> <!-- TC10_verifyWebDomainTooltipText -->
+                  <span class="method-name">TC10_verifyWebDomainTooltipText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC11_verifyIdentificationTypeTooltipText">
+                  </a> <!-- TC11_verifyIdentificationTypeTooltipText -->
+                  <span class="method-name">TC11_verifyIdentificationTypeTooltipText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12_verifyIdentificationNumberTooltipText">
+                  </a> <!-- TC12_verifyIdentificationNumberTooltipText -->
+                  <span class="method-name">TC12_verifyIdentificationNumberTooltipText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC13_verifyPrimaryIndustryTooltipText">
+                  </a> <!-- TC13_verifyPrimaryIndustryTooltipText -->
+                  <span class="method-name">TC13_verifyPrimaryIndustryTooltipText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC14_verifyReferenceURLTooltipText">
+                  </a> <!-- TC14_verifyReferenceURLTooltipText -->
+                  <span class="method-name">TC14_verifyReferenceURLTooltipText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC15_verifySegmentationTooltipText">
+                  </a> <!-- TC15_verifySegmentationTooltipText -->
+                  <span class="method-name">TC15_verifySegmentationTooltipText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC16_verifyReferenceGIDTooltipText">
+                  </a> <!-- TC16_verifyReferenceGIDTooltipText -->
+                  <span class="method-name">TC16_verifyReferenceGIDTooltipText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC17_verifyFieldsMandatoryToFillForRegistration">
+                  </a> <!-- TC17_verifyFieldsMandatoryToFillForRegistration -->
+                  <span class="method-name">TC17_verifyFieldsMandatoryToFillForRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC18_verifyCountryIsMandatoryAndElementType">
+                  </a> <!-- TC18_verifyCountryIsMandatoryAndElementType -->
+                  <span class="method-name">TC18_verifyCountryIsMandatoryAndElementType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC19_verifyUSAsDefaultCountry">
+                  </a> <!-- TC19_verifyUSAsDefaultCountry -->
+                  <span class="method-name">TC19_verifyUSAsDefaultCountry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC20_verifyStateIsMandatoryAndElementType">
+                  </a> <!-- TC20_verifyStateIsMandatoryAndElementType -->
+                  <span class="method-name">TC20_verifyStateIsMandatoryAndElementType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC21_verifyCityIsMandatoryAndElementType">
+                  </a> <!-- TC21_verifyCityIsMandatoryAndElementType -->
+                  <span class="method-name">TC21_verifyCityIsMandatoryAndElementType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC22_verifyZipCodeIsMandatoryAndElementType">
+                  </a> <!-- TC22_verifyZipCodeIsMandatoryAndElementType -->
+                  <span class="method-name">TC22_verifyZipCodeIsMandatoryAndElementType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC23_verifyWebDomainIsMandatoryAndElementType">
+                  </a> <!-- TC23_verifyWebDomainIsMandatoryAndElementType -->
+                  <span class="method-name">TC23_verifyWebDomainIsMandatoryAndElementType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC24_verifyPrimaryIndustryIsMandatoryAndElementType">
+                  </a> <!-- TC24_verifyPrimaryIndustryIsMandatoryAndElementType -->
+                  <span class="method-name">TC24_verifyPrimaryIndustryIsMandatoryAndElementType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC25_verifyCustomerCompanyNameIsMandatoryAndElementType">
+                  </a> <!-- TC25_verifyCustomerCompanyNameIsMandatoryAndElementType -->
+                  <span class="method-name">TC25_verifyCustomerCompanyNameIsMandatoryAndElementType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC26_verifyAddress1IsMandatoryAndElementType">
+                  </a> <!-- TC26_verifyAddress1IsMandatoryAndElementType -->
+                  <span class="method-name">TC26_verifyAddress1IsMandatoryAndElementType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC27_verifySegmentationIsMandatoryAndElementType">
+                  </a> <!-- TC27_verifySegmentationIsMandatoryAndElementType -->
+                  <span class="method-name">TC27_verifySegmentationIsMandatoryAndElementType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC28_verifyIdentificationTypeIsMandatoryAndElementType">
+                  </a> <!-- TC28_verifyIdentificationTypeIsMandatoryAndElementType -->
+                  <span class="method-name">TC28_verifyIdentificationTypeIsMandatoryAndElementType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC29_verifyIdentificationNumberIsMandatoryAndElementType">
+                  </a> <!-- TC29_verifyIdentificationNumberIsMandatoryAndElementType -->
+                  <span class="method-name">TC29_verifyIdentificationNumberIsMandatoryAndElementType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC30_verifyErrorForInvalidCity">
+                  </a> <!-- TC30_verifyErrorForInvalidCity -->
+                  <span class="method-name">TC30_verifyErrorForInvalidCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC31_verifyErrorForInvalidPostalCode">
+                  </a> <!-- TC31_verifyErrorForInvalidPostalCode -->
+                  <span class="method-name">TC31_verifyErrorForInvalidPostalCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC32_verifyErrorForIncorrectPostalCode">
+                  </a> <!-- TC32_verifyErrorForIncorrectPostalCode -->
+                  <span class="method-name">TC32_verifyErrorForIncorrectPostalCode</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -219,18 +1358,23 @@
         </div> <!-- panel Suite1 -->
         <div panel-name="test-xml-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\manorsah\Documents\CRT_UI_AUTOMATION\testng.xml</span>
+            <span class="header-content">C:\Users\manorsah\IdeaProjects\selenium\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite1&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite1&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;NewCustomerRegistration&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;launchUrl_FF&quot;/&gt;
+      &lt;class name=&quot;test.NewCustomerRegistrationTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- NewCustomerRegistration --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CustomerAndAddressValidation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.CustomerAndAddressValidationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CustomerAndAddressValidation --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -242,7 +1386,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">NewCustomerRegistration (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CustomerAndAddressValidation (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -268,44 +1415,224 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(53);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'launchUrl_FF')
-data.setCell(0, 3, 36880);
+data.setCell(0, 1, 'TC01_login')
+data.setCell(0, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(0, 3, 269719);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyPresenceOfAllFields')
-data.setCell(1, 2, 'launchUrl_FF')
-data.setCell(1, 3, 1629);
+data.setCell(1, 1, 'TC09_verifyResetFunctionality')
+data.setCell(1, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(1, 3, 13371);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyCountryIsMandatoryAndElementType')
-data.setCell(2, 2, 'launchUrl_FF')
-data.setCell(2, 3, 924);
+data.setCell(2, 1, 'TC33_verifyErrorForInvalidCustomerCompanyName')
+data.setCell(2, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(2, 3, 13279);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyFieldsMandatoryToFillForRegistration')
-data.setCell(3, 2, 'launchUrl_FF')
-data.setCell(3, 3, 728);
+data.setCell(3, 1, 'TC08_CustomerRegistrationForRU')
+data.setCell(3, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(3, 3, 10752);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyLogoAndPageTitle')
-data.setCell(4, 2, 'launchUrl_FF')
-data.setCell(4, 3, 287);
+data.setCell(4, 1, 'TC30_verifyErrorForInvalidCity')
+data.setCell(4, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(4, 3, 10290);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyCRAndCustomerValidationTabs')
-data.setCell(5, 2, 'launchUrl_FF')
-data.setCell(5, 3, 163);
+data.setCell(5, 1, 'TC07_CustomerRegistrationForAF')
+data.setCell(5, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(5, 3, 7957);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyCRTabIsSelected')
-data.setCell(6, 2, 'launchUrl_FF')
-data.setCell(6, 3, 61);
+data.setCell(6, 1, 'TC06_CustomerRegistrationForUS')
+data.setCell(6, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(6, 3, 5831);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyUSAsDefaultCountry')
-data.setCell(7, 2, 'launchUrl_FF')
-data.setCell(7, 3, 24);
+data.setCell(7, 1, 'TC31_verifyErrorForInvalidPostalCode')
+data.setCell(7, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(7, 3, 3640);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC32_verifyErrorForIncorrectPostalCode')
+data.setCell(8, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(8, 3, 3592);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC28_verifyIdentificationTypeIsMandatoryAndElementType')
+data.setCell(9, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(9, 3, 2051);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC14_verifyReferenceURLTooltipText')
+data.setCell(10, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(10, 3, 1439);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC05_verifyPresenceOfAllFields')
+data.setCell(11, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(11, 3, 1400);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC10_verifyWebDomainTooltipText')
+data.setCell(12, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(12, 3, 1350);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC16_verifyReferenceGIDTooltipText')
+data.setCell(13, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(13, 3, 1339);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC11_verifyIdentificationTypeTooltipText')
+data.setCell(14, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(14, 3, 1338);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC12_verifyIdentificationNumberTooltipText')
+data.setCell(15, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(15, 3, 1333);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC15_verifySegmentationTooltipText')
+data.setCell(16, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(16, 3, 1279);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC13_verifyPrimaryIndustryTooltipText')
+data.setCell(17, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(17, 3, 1273);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC17_verifyFieldsMandatoryToFillForRegistration')
+data.setCell(18, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(18, 3, 966);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC18_verifyCountryIsMandatoryAndElementType')
+data.setCell(19, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(19, 3, 894);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TC27_verifySegmentationIsMandatoryAndElementType')
+data.setCell(20, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(20, 3, 824);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TC24_verifyPrimaryIndustryIsMandatoryAndElementType')
+data.setCell(21, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(21, 3, 807);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TC01_login')
+data.setCell(22, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(22, 3, 762);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TC03_verifyCRAndCustomerValidationTabs')
+data.setCell(23, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(23, 3, 570);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TC22_verifyZipCodeIsMandatoryAndElementType')
+data.setCell(24, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(24, 3, 566);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TC02_verifyLogoAndPageTitle')
+data.setCell(25, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(25, 3, 493);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TC04_verifyCRTabIsSelected')
+data.setCell(26, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(26, 3, 408);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TC29_verifyIdentificationNumberIsMandatoryAndElementType')
+data.setCell(27, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(27, 3, 234);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TC20_verifyStateIsMandatoryAndElementType')
+data.setCell(28, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(28, 3, 220);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'TC23_verifyWebDomainIsMandatoryAndElementType')
+data.setCell(29, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(29, 3, 197);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'TC26_verifyAddress1IsMandatoryAndElementType')
+data.setCell(30, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(30, 3, 184);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TC25_verifyCustomerCompanyNameIsMandatoryAndElementType')
+data.setCell(31, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(31, 3, 179);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'TC21_verifyCityIsMandatoryAndElementType')
+data.setCell(32, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(32, 3, 158);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'TC19_verifyUSAsDefaultCountry')
+data.setCell(33, 2, 'test.NewCustomerRegistrationTest')
+data.setCell(33, 3, 151);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'TC17_VerfiyUploadErrorMessage')
+data.setCell(34, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(34, 3, 49);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'TC18_VerfiyBulkUploadData')
+data.setCell(35, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(35, 3, 23);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'TC02_verifyUSAsDefaultCountry')
+data.setCell(36, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(36, 3, 19);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'TC11_ValidateCustomerSearchWithAllInput')
+data.setCell(37, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(37, 3, 17);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'TC08_ValidateCustomerSearchUsingCity')
+data.setCell(38, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(38, 3, 15);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'TC12_ValidateResetFunctionality')
+data.setCell(39, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(39, 3, 15);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'TC04_ValidateCustomerSearchUsingCustomerCompanyName')
+data.setCell(40, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(40, 3, 14);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'TC20_BulkValidationMessageToDownloadTemplate')
+data.setCell(41, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(41, 3, 14);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'TC09_SuggestionsListsForCity')
+data.setCell(42, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(42, 3, 14);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'TC21_VerifyToolTipTextCustomerCompanyName')
+data.setCell(43, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(43, 3, 14);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'TC13_VerifyHelpfulTips')
+data.setCell(44, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(44, 3, 14);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'TC24_VerifySupportFunctionality')
+data.setCell(45, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(45, 3, 13);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'TC05_SuggestionsListsForCustomerCompanyName')
+data.setCell(46, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(46, 3, 13);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'TC06_ValidateCustomerSearchUsingState')
+data.setCell(47, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(47, 3, 13);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'TC07_SuggestionsListsForState')
+data.setCell(48, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(48, 3, 13);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'TC15_RefreshResultTable')
+data.setCell(49, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(49, 3, 13);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'TC10_ValidateCustomerSearchUsingZipCode')
+data.setCell(50, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(50, 3, 13);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'TC19_VerifyDemoFunctionality')
+data.setCell(51, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(51, 3, 12);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'TC03_verifyErrorCustomerName_State_City_Postal_Code_Mandatory')
+data.setCell(52, 2, 'test.CustomerAndAddressValidationTest')
+data.setCell(52, 3, 11);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -320,28 +1647,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">7 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">launchUrl_FF</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyIdentificationTypeTooltipText</span>
-                <br/>
-                <span class="ignored-method-name">verifyReferenceURLTooltipText</span>
-                <br/>
-                <span class="ignored-method-name">verifyIdentificationNumberTooltipText</span>
-                <br/>
-                <span class="ignored-method-name">verifySegmentationTooltipText</span>
-                <br/>
-                <span class="ignored-method-name">verifyPrimaryIndustryTooltipText</span>
-                <br/>
-                <span class="ignored-method-name">verifyReferenceGIDTooltipText</span>
-                <br/>
-                <span class="ignored-method-name">verifyWebDomainTooltipText</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite1" class="panel">
@@ -350,42 +1658,279 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">launchUrl_FF</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.NewCustomerRegistrationTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">initialSetUp</span>
+                <span class="method-name">VerifyLoginAndsetUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">26442 ms</span>
+                <span class="method-name">TC01_login</span>
+                <span class="method-start">18817 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyLogoAndPageTitle</span>
-                <span class="method-start">63327 ms</span>
+                <span class="method-name">TC02_verifyLogoAndPageTitle</span>
+                <span class="method-start">288541 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyCRAndCustomerValidationTabs</span>
-                <span class="method-start">63616 ms</span>
+                <span class="method-name">TC03_verifyCRAndCustomerValidationTabs</span>
+                <span class="method-start">289035 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyCRTabIsSelected</span>
-                <span class="method-start">63780 ms</span>
+                <span class="method-name">TC04_verifyCRTabIsSelected</span>
+                <span class="method-start">289606 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyPresenceOfAllFields</span>
-                <span class="method-start">63841 ms</span>
+                <span class="method-name">TC05_verifyPresenceOfAllFields</span>
+                <span class="method-start">290015 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFieldsMandatoryToFillForRegistration</span>
-                <span class="method-start">65471 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC06_CustomerRegistrationForUS</span>
+                <span class="method-start">291417 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyUSAsDefaultCountry</span>
-                <span class="method-start">66200 ms</span>
+                <span class="method-name">TC07_CustomerRegistrationForAF</span>
+                <span class="method-start">297264 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyCountryIsMandatoryAndElementType</span>
-                <span class="method-start">66224 ms</span>
+                <span class="method-name">TC08_CustomerRegistrationForRU</span>
+                <span class="method-start">305222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC22_verifyZipCodeIsMandatoryAndElementType</span>
+                <span class="method-start">315975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC17_verifyFieldsMandatoryToFillForRegistration</span>
+                <span class="method-start">316542 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC19_verifyUSAsDefaultCountry</span>
+                <span class="method-start">317509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC18_verifyCountryIsMandatoryAndElementType</span>
+                <span class="method-start">317661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC20_verifyStateIsMandatoryAndElementType</span>
+                <span class="method-start">318556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC21_verifyCityIsMandatoryAndElementType</span>
+                <span class="method-start">318777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC23_verifyWebDomainIsMandatoryAndElementType</span>
+                <span class="method-start">318937 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC24_verifyPrimaryIndustryIsMandatoryAndElementType</span>
+                <span class="method-start">319136 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC25_verifyCustomerCompanyNameIsMandatoryAndElementType</span>
+                <span class="method-start">319944 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC26_verifyAddress1IsMandatoryAndElementType</span>
+                <span class="method-start">320124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC27_verifySegmentationIsMandatoryAndElementType</span>
+                <span class="method-start">320309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC28_verifyIdentificationTypeIsMandatoryAndElementType</span>
+                <span class="method-start">321134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC29_verifyIdentificationNumberIsMandatoryAndElementType</span>
+                <span class="method-start">323185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC30_verifyErrorForInvalidCity</span>
+                <span class="method-start">323420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC31_verifyErrorForInvalidPostalCode</span>
+                <span class="method-start">333711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC32_verifyErrorForIncorrectPostalCode</span>
+                <span class="method-start">337351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC33_verifyErrorForInvalidCustomerCompanyName</span>
+                <span class="method-start">340944 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC09_verifyResetFunctionality</span>
+                <span class="method-start">354226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC10_verifyWebDomainTooltipText</span>
+                <span class="method-start">367600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC11_verifyIdentificationTypeTooltipText</span>
+                <span class="method-start">368951 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC12_verifyIdentificationNumberTooltipText</span>
+                <span class="method-start">370290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC13_verifyPrimaryIndustryTooltipText</span>
+                <span class="method-start">371624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC14_verifyReferenceURLTooltipText</span>
+                <span class="method-start">372897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC15_verifySegmentationTooltipText</span>
+                <span class="method-start">374336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC16_verifyReferenceGIDTooltipText</span>
+                <span class="method-start">375615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">376954 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CustomerAndAddressValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">VerifyLoginAndsetUp</span>
+                <span class="method-start">380693 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC01_login</span>
+                <span class="method-start">387268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC02_verifyUSAsDefaultCountry</span>
+                <span class="method-start">388032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC03_verifyErrorCustomerName_State_City_Postal_Code_Mandatory</span>
+                <span class="method-start">388055 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC05_SuggestionsListsForCustomerCompanyName</span>
+                <span class="method-start">388068 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC07_SuggestionsListsForState</span>
+                <span class="method-start">388083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC09_SuggestionsListsForCity</span>
+                <span class="method-start">388097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC12_ValidateResetFunctionality</span>
+                <span class="method-start">388112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC13_VerifyHelpfulTips</span>
+                <span class="method-start">388129 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC19_VerifyDemoFunctionality</span>
+                <span class="method-start">388145 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC20_BulkValidationMessageToDownloadTemplate</span>
+                <span class="method-start">388158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC24_VerifySupportFunctionality</span>
+                <span class="method-start">388173 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC21_VerifyToolTipTextCustomerCompanyName</span>
+                <span class="method-start">388188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC04_ValidateCustomerSearchUsingCustomerCompanyName</span>
+                <span class="method-start">388204 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC06_ValidateCustomerSearchUsingState</span>
+                <span class="method-start">388219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC08_ValidateCustomerSearchUsingCity</span>
+                <span class="method-start">388234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC10_ValidateCustomerSearchUsingZipCode</span>
+                <span class="method-start">388251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC11_ValidateCustomerSearchWithAllInput</span>
+                <span class="method-start">388265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC15_RefreshResultTable</span>
+                <span class="method-start">388283 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC17_VerfiyUploadErrorMessage</span>
+                <span class="method-start">388297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC18_VerfiyBulkUploadData</span>
+                <span class="method-start">388347 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
